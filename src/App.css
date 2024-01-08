@@ -1,0 +1,79 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.al {
+  background-color: #DF826C;
+  padding: 1rem;
+  border-top-right-radius: 3rem;
+  border-top-left-radius: 1.3rem;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 1.3rem;
+  color: #F4E0B9;
+}
+.al label {
+  font-style: italic;
+  font-size: 1.7rem;
+  color: #B80000;
+  padding: 1rem;
+}
+.al input {
+  border: 1px solid #C21292;
+  padding: 1rem;
+  border-radius: 10px;
+  outline-color: #EF4040;
+  margin: 1rem;
+}
+.al button {
+  margin: 1rem;
+  background-color: #F8FFD2;
+  color: #872341;
+  border: 1px dotted #FA7070;
+}
+.al hr {
+ box-shadow: 5px 7px 9px #CE5A67;
+ height: 3px;
+}
+/* .al p {
+  color: #3D0C11;
+} */
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
